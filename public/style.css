@@ -293,7 +293,7 @@ img:hover {
   margin: 1rem;
 }
 
-.review-name{
+.reviewer-name{
   font-family: 'Oswald', sans-serif;
 }
 
@@ -312,4 +312,8 @@ img:hover {
   top: 0;
   left: 0;
   background: rgba(0,0,0,0.5)
+}
+
+.productInformation{
+  z-index: initial;
 }
