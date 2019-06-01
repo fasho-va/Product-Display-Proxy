@@ -2,6 +2,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow-x: hidden;
 }
 
 .slider {
@@ -98,4 +99,40 @@ img:hover {
 .slick-arrow {
   width: 2vw;
   height: 4.5vh;
+}
+
+#add-to-bag{
+  width: 100%;
+  height: 60%;
+  /* position: absolute;
+  top: 80vh;
+  right:0;
+  left: 0;
+  overflow: visible !important; */
+  /* display: none; */
+}
+
+.ui.segment.pushable{
+  overflow: visible !important;
+  background: 0, 0, 0, 0;
+}
+
+.ui.sidebar{
+  overflow: visible;
+}
+
+
+#productDisplay{
+  width: 100%;
+  height: none !important;
+}
+
+.ui.white.vertical.labeled.icon.ui.overlay.right.visible.sidebar.sidebar.menu{
+  position: absolute;
+  /* top: -77vh; */
+  /* bottom: 63vh; */
+  overflow: scroll !important;
+  /* height: 100% !important; */
+  width: 100% !important;
+  height: 100vh !important;
 }

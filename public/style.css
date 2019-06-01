@@ -219,3 +219,97 @@ img:hover {
   width: 2vw;
   height: 4.5vh;
 }
+
+#add-to-bag{
+  position: absolute;
+  /* height: 20vh;
+  top: 77vh; */
+  top: 0;
+  right: 0;
+  overflow: visible !important;
+}
+
+#add-to-bag.sc-EHOje.jKIeok{
+  position: absolute;
+  height: 20vh;
+  top: 77vh;
+  overflow: visible !important;
+}
+
+.ui.basic.segment{
+  /* margin-top: 70vh !important; */
+  margin-right: 5vw;
+}
+
+.ui.segment.pushable{
+  overflow: visible !important;
+  height: 100vh;
+  background: 0, 0, 0, 0;
+}
+
+.ui.segment{
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border-radius: none !important;
+  border: none !important;
+}
+
+.ui.white.vertical.labeled.icon.ui.overlay.right.visible.sidebar.sidebar.menu{
+  position: absolute;
+  top: -77vh;
+  /* bottom: 63vh; */
+  /* overflow: visible !important; */
+  /* height: 100% !important; */
+  width: 100% !important;
+}
+
+.pusher{
+  height: 10vh;
+}
+
+.proxy-body{
+  height: initial;
+  margin: initial;
+  padding: initial;
+  overflow-x: hidden;
+  min-width: initial;
+  background: initial;
+  font-family: initial;
+  font-size: initial;
+  line-height: initial;
+  color: initial;
+}
+
+/* *, :after, :before {
+  -webkit-box-sizing: initial;
+  box-sizing: initial;
+} */
+
+.checked {
+  color: orange;
+}
+
+.ui.grid{
+  margin: 1rem;
+}
+
+.review-name{
+  font-family: 'Oswald', sans-serif;
+}
+
+.review-title{
+  font-family: 'Oswald', sans-serif;
+}
+
+.review{
+  font-family: 'Oswald', sans-serif;
+}
+
+.overlay:after{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.5)
+}
