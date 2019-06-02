@@ -58,10 +58,10 @@ img:hover {
   line-height: 19.5px;
   
 } */
-/* .item-box .item-info .item-details {
-  height: 38px;
+.item-box .item-info .item-details {
+  min-height: 6vh;
   overflow: hidden;
-} */
+}
 
 /* .item-box .item-info .item-price {
   height: 19px;
@@ -168,9 +168,8 @@ img:hover {
   
 
 }
-.item-box .item-info .item-details {
 
-}
+
 .item-box .item-info .item-price {
   height: 19px;
   margin: 6px 0 0 0;
@@ -238,7 +237,7 @@ img:hover {
 
 .ui.basic.segment{
   /* margin-top: 70vh !important; */
-  margin-right: 5vw;
+  margin-right: 2vw;
 }
 
 .ui.segment.pushable{
@@ -285,12 +284,13 @@ img:hover {
   box-sizing: initial;
 } */
 
-.checked {
-  color: orange;
-}
-
 .ui.grid{
   margin: 1rem;
+}
+
+
+.checked {
+  color: orange;
 }
 
 .reviewer-name{
@@ -305,15 +305,26 @@ img:hover {
   font-family: 'Oswald', sans-serif;
 }
 
-.overlay:after{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background: rgba(0,0,0,0.5)
-}
+
 
 .productInformation{
   z-index: initial;
+}
+
+.review-list {
+  max-width: 100vw;
+}
+
+.jss60 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+}
+
+.jss42 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
 }
