@@ -24,6 +24,10 @@ img:hover {
   z-index: 0;
 }
 
+.mainComponentWrapper{
+  height: 70vh;
+}
+
 .slider {
   text-align: center;
   display: inline-block;
