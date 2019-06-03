@@ -4,18 +4,15 @@ body{
   justify-content: center;
 }
 
-/* #productDisplay {
-  max-height: 80vh;
-} */
+#productDisplay {
+  margin-bottom: -8vh
+}
 
 /* img {
   width: 66%
 } */
 
-#related-items {
-  font-family: 'Oswald', sans-serif;
-  text-align: center;
-}
+
 /* .slider {
   text-align: center;
   display: inline-block;
@@ -59,7 +56,7 @@ img:hover {
   
 } */
 .item-box .item-info .item-details {
-  min-height: 6vh;
+  height: 6vh;
   overflow: hidden;
 }
 
@@ -115,6 +112,12 @@ img:hover {
   font-family: 'Oswald', sans-serif;
   text-align: center;
 } */
+#related-items {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  margin-top: 10vh;
+  z-index: 0;
+}
 
 .slider {
   text-align: center;
@@ -218,25 +221,17 @@ img:hover {
   width: 2vw;
   height: 4.5vh;
 }
-
+/* 
 #add-to-bag{
   position: absolute;
-  /* height: 20vh;
-  top: 77vh; */
+
   top: 0;
   right: 0;
   overflow: visible !important;
 }
 
-#add-to-bag.sc-EHOje.jKIeok{
-  position: absolute;
-  height: 20vh;
-  top: 77vh;
-  overflow: visible !important;
-}
-
 .ui.basic.segment{
-  /* margin-top: 70vh !important; */
+
   margin-right: 2vw;
 }
 
@@ -246,6 +241,24 @@ img:hover {
   background: 0, 0, 0, 0;
 }
 
+
+
+.ui.buttons {
+  padding-top: 2vh;
+}
+
+.pusher{
+  height: 10vh;
+} */
+
+#add-to-bag.sc-EHOje.jKIeok{
+  /* position: absolute;
+  height: 20vh;
+  top: 77vh;
+  overflow: visible !important; */
+  float: right;
+}
+
 .ui.segment{
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
@@ -253,19 +266,16 @@ img:hover {
   border: none !important;
 }
 
+/* .pusher.dimmed{
+  visibility: hidden;
+} */
+
 .ui.white.vertical.labeled.icon.ui.overlay.right.visible.sidebar.sidebar.menu{
-  position: absolute;
-  top: -77vh;
-  /* bottom: 63vh; */
-  /* overflow: visible !important; */
-  /* height: 100% !important; */
+  /* position: absolute;
+  top: -77vh; */
+  z-index: 500;
   width: 100% !important;
 }
-
-.pusher{
-  height: 10vh;
-}
-
 .proxy-body{
   height: initial;
   margin: initial;
@@ -309,6 +319,7 @@ img:hover {
 
 .productInformation{
   z-index: initial;
+
 }
 
 .review-list {
@@ -324,7 +335,40 @@ img:hover {
 
 .jss42 {
   font-family: 'Oswald', sans-serif;
-  font-size: 18px;
+  font-size: 1vw;
   font-weight: 400;
   letter-spacing: 0.05em;
 }
+
+.jss39 {
+  min-height: 1px !important;
+}
+
+.othersTab {
+  border: 1px solid rgba(173, 173, 173, 0.37) !important;
+  padding-top: 15px;
+}
+
+#womensTab {
+  padding-top: 15px;
+}
+
+#overlay {
+  /* display: none; */
+  visibility: hidden;
+  position:fixed;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background-color: rgba(0,0,0,.4);
+  opacity: -1;
+  z-index:2;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  will-change: opacity;
+}
+
+.magnifyingGlass {
+  box-sizing: unset;
+};
