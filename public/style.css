@@ -149,10 +149,10 @@ img:hover {
   color: initial;
 }
 
-
+/* 
 .ui.grid{
   margin: 1rem;
-}
+} */
 
 
 .checked {
@@ -235,9 +235,15 @@ img:hover {
 }
 
 .quantity{
-  width: initial !important;
+  width: 5vw !important;
 }
 
 .fullscreenGallery{
   z-index: 7;
+}
+
+.ui.grid>.row>[class*="seven wide"].column{
+  width: 100% !important;
+  margin: 0 !important;
+  text-indent: 2vw;
 }

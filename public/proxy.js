@@ -6,9 +6,11 @@ document.getElementsByClassName('ui button')[3].addEventListener('click', () => 
     window.scroll(0,0)
   } else {
     document.getElementById('add-to-bag').style.position = 'fixed'
+    console.log('here');
   }
+  console.log('here')
   document.getElementsByClassName('buttons')[0].style.opacity = '0'
-  document.getElementsByClassName('dWUjRn')[0].style.visibility = 'hidden'
+  // document.getElementsByClassName('dWUjRn')[0].style.visibility = 'hidden'
   document.getElementById('add-to-bag').style.top = '0'
   document.getElementById('add-to-bag').style.right = '0'
   document.getElementById('add-to-bag').style.bottom = '0'
@@ -22,7 +24,7 @@ document.getElementsByClassName('ui button')[3].addEventListener('click', () => 
 document.getElementById('overlay').addEventListener('click', () => {
   if (cartOpen) {
     document.getElementsByClassName('buttons')[0].style.opacity = '1'
-    document.getElementsByClassName('dWUjRn')[0].style.visibility = 'initial'
+    // document.getElementsByClassName('dWUjRn')[0].style.visibility = 'initial'
     document.getElementById('add-to-bag').style.position = 'initial'
     document.getElementById('add-to-bag').style.top = 'initial'
     document.getElementById('add-to-bag').style.right = 'initial'
