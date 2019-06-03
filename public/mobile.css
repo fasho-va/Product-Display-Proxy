@@ -1,3 +1,7 @@
+/* html{
+  overflow-x: hidden;
+} */
+
 body{
   width: 100%;
   height: 100%;
@@ -11,8 +15,8 @@ body{
   z-index: -1;
 }
 
-#productDisplay{
-  z-index: -1;
+#app{
+  width: 100vw;
 }
 
 .slider {
@@ -25,11 +29,11 @@ body{
   font-family: "Open Sans", sans-serif;
 }
 
-.slider h2 {
+/* .slider h2 {
   font-size: 22px;
   font-weight: 400;
   margin: 13px 0;
-}
+} */
 .item-box {
   width: 265.5px;
   margin: 25px 0;
@@ -111,39 +115,36 @@ img:hover {
 .slick-arrow {
   width: 2vw;
   height: 4.5vh;
+
 }
-
-/* #add-to-bag{
-  width: 100%;
-  height: 60%;
-  position: absolute;
-  top: 80vh;
-  right:0;
-  left: 0;
-  overflow: visible !important;
-  display: none;
-} */
-
 .ui.basic.segment{
   display: flex;
   flex-direction: column;
 }
 
-.ui.segment.pushable{
+/* .ui.segment.pushable{
   overflow: visible !important;
   background: 0, 0, 0, 0;
+} */
+
+/* #add-to-bag{
+  width:90vw;
 }
 
-.ui.sidebar{
-  overflow: visible;
-}
 
-.ui.buttons {
-  padding-top: 2vh;
-}
+
+*/
+  .ui.sidebar{
+    overflow: visible;
+  }
+  
+  .ui.buttons {
+    padding-top: 2vh;
+  }
 
 
 #productDisplay{
+  z-index: 1;
   width: 100%;
   height: none !important;
 }
@@ -197,10 +198,4 @@ img:hover {
   will-change: opacity; */
 }
 
-.fullscreenGallery {
-  z-index: 4;
-}
 
-.magnifyingGlass {
-  box-sizing: unset;
-};
