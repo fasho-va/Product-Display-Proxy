@@ -1,6 +1,4 @@
-/* html{
-  overflow-x: hidden;
-} */
+
 
 body{
   width: 100%;
@@ -24,16 +22,10 @@ body{
   display: inline-block;
   width: 90vw;
   margin: 1rem;
-  /* height: 500px; */
   letter-spacing: 1px;
   font-family: "Open Sans", sans-serif;
 }
 
-/* .slider h2 {
-  font-size: 22px;
-  font-weight: 400;
-  margin: 13px 0;
-} */
 .item-box {
   width: 265.5px;
   margin: 25px 0;
@@ -58,36 +50,38 @@ img:hover {
   overflow: hidden;
   text-align: center;
   margin: 10px auto 0 auto;
-  font-size: 7px;
+  font-size: 8px;
   font-weight: 100;
-  line-height: 19.5px;
+  line-height: 8.5px;
   
 
 }
 .item-box .item-info .item-details {
-  height: 6vh;
+  height: 6.5vh;
   overflow: hidden;
 
 }
 .item-box .item-info .item-price {
   height: 19px;
-  margin: 6px 0 0 0;
+  margin: 4px 0 0 0;
+  font-weight: 600;
 }
 .item-box .item-info .add-to-bag {
-  height: 3.3vh;
+  height: 3vh;
   background-color: black;
   background-attachment: scroll;
   color: white;
   text-align: center;
 }
+
 .item-box .item-info .add-to-bag .text{
-  /* display: inline-block; */
+
   font-weight: 800;
-  font-size: 7px;
-  /* letter-spacing: 1.5px; */
-  /* margin: 6px 0 0 0; */
-  /* height: 19px; */
+  font-size: 8px;
+  line-height: initial;
+  margin-top: 1px;
 }
+
 .item-box .item-info .add-to-bag select {
   -webkit-appearance: none; 
   -moz-appearance: none;
@@ -122,25 +116,13 @@ img:hover {
   flex-direction: column;
 }
 
-/* .ui.segment.pushable{
-  overflow: visible !important;
-  background: 0, 0, 0, 0;
-} */
-
-/* #add-to-bag{
-  width:90vw;
+.ui.sidebar{
+  overflow: visible;
 }
 
-
-
-*/
-  .ui.sidebar{
-    overflow: visible;
-  }
-  
-  .ui.buttons {
-    padding-top: 2vh;
-  }
+.ui.buttons {
+  padding-top: 2vh;
+}
 
 
 #productDisplay{
@@ -150,10 +132,6 @@ img:hover {
 }
 
 .ui.white.vertical.labeled.icon.ui.overlay.right.visible.sidebar.sidebar.menu{
-  /* position: absolute;
-  top: 1vh;
-  overflow: visible !important; */
-  /* height: 100% !important; */
   width: 100% !important;
   height: 100vh !important;
 }
@@ -183,7 +161,6 @@ img:hover {
 }
 
 #overlay {
-  /* display: none; */
   visibility: hidden;
   position:fixed;
   top:0;
@@ -193,9 +170,6 @@ img:hover {
   background-color: rgba(0,0,0, 0.87);
   opacity: -1;
   z-index:2;
-  /* -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-  will-change: opacity; */
 }
 
 
